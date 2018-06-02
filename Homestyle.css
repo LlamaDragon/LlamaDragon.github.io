@@ -1,0 +1,81 @@
+head{
+	background-color: #b30000;
+}
+title{  
+	font-family: 'Paprika';font-size: 22px;
+	text-align: left;
+	color: black;
+}
+nav{
+	background-color: darkgrey;
+}
+nav a{
+	float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+} 
+nav a:hover{
+	background-color: black
+}
+nav a.current{
+	background-color: #b30000
+}
+.dropbtn1 {
+    background-color: darkgrey;
+    color: white;
+    padding: 14px 16px;
+    font-size: 17px;
+    border: none;
+}
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+body{
+	background-color: lightgrey;
+}
+.slideshow-boarder{
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+.slides {
+    display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
